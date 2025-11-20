@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
+using UnityEngine.UI;
+
 using TMPro;
 
 [System.Serializable]
@@ -21,6 +23,8 @@ public class DialogueElement
     public bool playVoice = true;
 
     public VoiceType voiceType;
+
+    public Image uiImage;
 
 }
 
@@ -73,6 +77,8 @@ public class Scene01Event : MonoBehaviour
     private int currentTextIndex = 0;
 
     private bool firstNextDone = false;
+
+    private Image currentActiveImage;
 
     void Start()
 
@@ -191,6 +197,20 @@ public class Scene01Event : MonoBehaviour
                 case VoiceType.Um: Um.Play(); break;
 
             }
+
+        }
+
+        if (currentActiveImage != null)
+
+            currentActiveImage.gameObject.SetActive(false);
+
+        if (element.uiImage != null)
+
+        {
+
+            element.uiImage.gameObject.SetActive(true);
+
+            currentActiveImage = element.uiImage;
 
         }
 
