@@ -39,4 +39,3 @@ public class Scene1Events : MonoBehaviour
 	}
 
 }
-

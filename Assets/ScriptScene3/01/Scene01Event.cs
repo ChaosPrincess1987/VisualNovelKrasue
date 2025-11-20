@@ -197,7 +197,6 @@ public class Scene01Event : MonoBehaviour
                 case VoiceType.Um: Um.Play(); break;
 
             }
-
         }
 
         if (currentActiveImage != null)
