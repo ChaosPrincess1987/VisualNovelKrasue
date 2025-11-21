@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Script/Scene1/Scenes/SceneThaiStyleHouse01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Script/Scene1/Scenes/Scene3.unity
+    guid: 3f0867dc4f968824ead68db0356cf943
+  - enabled: 1
+    path: Assets/Script/Scene1/Scenes/Scene4.unity
+    guid: 122870a979624b040b1b22540010c45d
+  - enabled: 1
+    path: Assets/Script/Scene1/Scenes/Scene2.unity
+    guid: 898d0aaccdf305c4eb09a5a70348aa91
+  - enabled: 1
+    path: Assets/Script/Scene1/Scenes/Scene2 re.unity
+    guid: 7d41783437d63254084b026b5acb61ed
   m_configObjects: {}
